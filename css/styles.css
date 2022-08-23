@@ -1,0 +1,196 @@
+html{
+	scroll-behavior: smooth;
+}
+
+h1{
+	font-family: Montserrat, sans-serif;
+	font-weight: 900;
+	font-size: 4rem;
+	line-height: 1.5;
+	color: white;
+}
+
+h2{
+	font-family: Montserrat, sans-serif;
+	font-weight: 700;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+h3{
+	font-family: Montserrat, sans-serif;
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+/*title section*/
+
+#title{
+background-color: #FF4C68;
+
+}
+
+.container-fluid{
+	padding: 3% 15% 8%;
+}
+
+.navbar-brand{
+	font-size: 2.5rem;
+	font-family: Ubuntu, sans-serif;
+}
+
+.container-fluid li{
+	font-family: Ubuntu, sans-serif;
+	font-size: 1.2rem;
+	padding-right: 30px;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.navbar{
+	padding-bottom: 60px;
+}
+
+.row button{
+	margin-right: 20px;
+	margin-top: 20px;
+	position: relative;
+	z-index: 1;
+}
+
+.iphone{
+	transform: rotate(25deg) ;
+	width: 350px;
+	position: absolute;
+}
+
+@media (max-width:990px){
+
+.iphone{
+	width: 350px;
+	margin-top: 20px;
+	transform: rotate(0);
+	position: relative;
+}
+#title{
+	text-align: center;
+}
+#features{
+	margin-top: -300px;
+}
+}
+
+/*feature section*/
+
+#features{
+	padding: 5% 15%;
+	background-color: white;
+	position: relative;
+	
+}
+
+.feature-box{
+	text-align: center;
+	padding: 8%;
+}
+
+#features i{
+	color: #EF8172;
+	margin-bottom: 20px;
+}
+
+#features i:hover{
+	color: #FF4C68;
+}
+
+#features p{
+	color: #8F8F8F;
+	font-family: Ubuntu, sans-serif;
+	font-size: 1rem;
+}
+
+/*testimonial section*/
+
+#testimonials{
+	text-align: center;
+	background-color: #EF8172;
+	color: white;
+}
+
+.testimonial-image{
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+}
+
+#press{
+	background-color: #EF8172;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+#press img{
+	width: 13%;
+	margin: 20px 20px 50px;
+}
+
+.carousel-item{     
+	transition: transform 1s ease;    
+	opacity: .3s ease-out;
+ 	padding: 7% 15%;
+}
+/*
+Pricing*/
+
+#pricing{
+	text-align: center;
+	padding: 100px;
+}
+
+.card-group p{
+	font-family: Ubuntu, sans-serif;
+}
+
+.pricing-column{
+	padding: 3% 2%;
+}
+
+#cta{
+	text-align: center;
+	background-color: #FF4C68;
+	
+}
+
+#cta h3{
+	font-family: Montserrat,sans-serif;
+	font-weight: 700;
+	font-size: 4rem;
+	text-align: center;
+	color: white;
+	line-height: 1.5;
+}
+
+.container-fluid1{
+	padding: 3% 20% 8%;
+}
+
+#cta button{
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+#footer{
+	text-decoration: none;
+	text-align: center;
+	background-color: white;
+	margin-bottom: 50px;
+}
+
+#footer i{
+	margin: 50px 15px 30px;
+	color: black;
+}
+
+#footer i:hover{
+	color: blue;
+}
