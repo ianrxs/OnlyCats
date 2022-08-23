@@ -179,7 +179,7 @@ Pricing*/
 	color: blue;
 }
 
-@media (min-width:412px) and (max-width:900px){
+@media (min-width:300px) and (max-width:980px){
 	h1{
 	font-family: Montserrat, sans-serif;
 	font-weight: 900;
