@@ -63,22 +63,6 @@ background-color: #FF4C68;
 	position: absolute;
 }
 
-@media (max-width:990px){
-
-.iphone{
-	width: 350px;
-	margin-top: 20px;
-	transform: rotate(0);
-	position: relative;
-}
-#title{
-	text-align: center;
-}
-#features{
-	margin-top: -300px;
-}
-}
-
 /*feature section*/
 
 #features{
@@ -193,4 +177,29 @@ Pricing*/
 
 #footer i:hover{
 	color: blue;
+}
+
+@media (max-width:990px){
+
+.iphone{
+	width: 350px;
+	margin-top: 20px;
+	transform: rotate(0);
+	position: relative;
+}
+#title{
+	text-align: center;
+}
+#features{
+	margin-top: -300px;
+}
+}
+@media (min-width:412px){
+	h1{
+	font-family: Montserrat, sans-serif;
+	font-weight: 900;
+	font-size: 2rem;
+	line-height: 1.5;
+	color: white;
+	}
 }
