@@ -218,8 +218,9 @@ h1{
 	margin-top: 20px;
 	transform: rotate(0);
 	position: relative;
-	right: 20px;
+	left: 30px;
 }
+	
 #title{
 	text-align: center;
 }
