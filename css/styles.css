@@ -187,6 +187,30 @@ Pricing*/
 	line-height: 1.5;
 	color: white;
 	}
+
+	h2{
+	font-family: Montserrat, sans-serif;
+	font-weight: 700;
+	font-size: 2rem;
+	line-height: 1.5;
+}
+
+	#cta h3{
+	font-family: Montserrat,sans-serif;
+	font-weight: 700;
+	font-size: 2rem;
+	text-align: center;
+	color: white;
+	line-height: 1.5;
+	padding-top: 20px;
+}
+
+#cta button{
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
 	.iphone{
 		margin-left: -30px;
 	}
