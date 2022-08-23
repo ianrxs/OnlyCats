@@ -61,6 +61,7 @@ background-color: #FF4C68;
 	transform: rotate(25deg) ;
 	width: 350px;
 	position: absolute;
+	margin-left: 130px;
 }
 
 /*feature section*/
@@ -215,6 +216,7 @@ h1{
 
 .image-div{
 	text-align: center;
+	
 	}
 	
 .iphone{
@@ -222,7 +224,7 @@ h1{
 	margin-top: 20px;
 	transform: rotate(0);
 	position: relative;
-	
+	margin-left: 0;
 }
 	
 #title{
