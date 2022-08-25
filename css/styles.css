@@ -2,6 +2,10 @@ html{
 	scroll-behavior: smooth;
 }
 
+body{
+	text-align: center;
+}
+
 h1, h2, h3{
 	font-family: Montserrat, sans-serif;
 
@@ -21,7 +25,7 @@ p, li{
 	font-weight: 900;
 	font-size: 4rem;
 	line-height: 1.5;
-	color: white;
+
 }
 
 .section-heading{
@@ -30,11 +34,21 @@ p, li{
 	font-weight: 700;
 }
 
+/*Sections*/
+
+.colored-section{
+	background-color: #FF4C68;
+	color: white;
+}
+
+.white-section{
+	background-color: white;
+}
+
 /*title section*/
 
-#title{
-background-color: #FF4C68;
-
+.title-page{
+text-align: left;
 }
 
 .container-fluid{
@@ -74,7 +88,6 @@ background-color: #FF4C68;
 
 #features{
 	padding: 5% 15%;
-	background-color: white;
 	position: relative;
 }
 
@@ -84,7 +97,6 @@ background-color: #FF4C68;
 }
 
 .feature-box{
-	text-align: center;
 	padding: 8%;
 }
 
@@ -100,9 +112,7 @@ background-color: #FF4C68;
 /*testimonial section*/
 
 #testimonials{
-	text-align: center;
 	background-color: #EF8172;
-	color: white;
 }
 
 .testimonial-image{
@@ -113,7 +123,6 @@ background-color: #FF4C68;
 
 #press{
 	background-color: #EF8172;
-	text-align: center;
 	padding-bottom: 3%;
 }
 
@@ -137,7 +146,6 @@ background-color: #FF4C68;
 /*Pricing section*/
 
 #pricing{
-	text-align: center;
 	padding: 100px;
 }
 
@@ -157,17 +165,10 @@ background-color: #FF4C68;
 
 /*download section*/
 
-#cta{
-	text-align: center;
-	background-color: #FF4C68;
-}
-
 .cta-heading{
 	font-family: Montserrat,sans-serif;
 	font-weight: 700;
 	font-size: 4rem;
-	text-align: center;
-	color: white;
 	line-height: 1.5;
 }
 
@@ -185,8 +186,6 @@ background-color: #FF4C68;
 
 #footer{
 	text-decoration: none;
-	text-align: center;
-	background-color: white;
 	margin-bottom: 50px;
 }
 
@@ -211,7 +210,6 @@ h1, h2, h3{
 	font-weight: 900;
 	font-size: 2rem;
 	line-height: 1.5;
-	color: white;
 }
 
 .section-heading{
@@ -219,6 +217,9 @@ h1, h2, h3{
 	line-height: 1.5rem;
 	font-weight: 700;
 	line-height: 1.5;
+}
+.title-page{
+	text-align: center;
 }
 
 .price-text{
@@ -236,8 +237,6 @@ h1, h2, h3{
 	.cta-heading{
 	font-weight: 700;
 	font-size: 2rem;
-	text-align: center;
-	color: white;
 	line-height: 1.5;
 	padding-top: 20px;
 }
@@ -252,23 +251,15 @@ h1, h2, h3{
 	margin-right: 10px;
 	margin-left: 10px;
 }	
-
-.image-div{
-	text-align: center;
-	
-	}
 	
 .iphone{
 	width: 300px;
 	margin-top: 20px;
 	transform: rotate(0);
 	position: relative;
-	margin-left: -20px;
+	margin-left: 0;
 }
 	
-#title{
-	text-align: center;
-}
 #features{
 	margin-top: -300px;
 }
