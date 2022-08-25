@@ -2,7 +2,21 @@ html{
 	scroll-behavior: smooth;
 }
 
-h1{
+h1, h2, h3{
+	font-family: Montserrat, sans-serif;
+
+}
+
+p, li{
+	font-family: Ubuntu, sans-serif;
+	font-size: 1rem;
+	color: #8F8F8F;
+
+}
+
+/*Heading section*/
+
+.big-heading{
 	font-family: Montserrat, sans-serif;
 	font-weight: 900;
 	font-size: 4rem;
@@ -10,17 +24,10 @@ h1{
 	color: white;
 }
 
-h2{
-	font-family: Montserrat, sans-serif;
-	font-weight: 700;
+.section-heading{
 	font-size: 3rem;
-	line-height: 1.5;
-}
-
-h3{
-	font-family: Montserrat, sans-serif;
+	line-height: 1.5rem;
 	font-weight: 700;
-	font-size: 1.5rem;
 }
 
 /*title section*/
@@ -40,7 +47,6 @@ background-color: #FF4C68;
 }
 
 .container-fluid li{
-	font-family: Ubuntu, sans-serif;
 	font-size: 1.2rem;
 	padding-right: 30px;
 	padding-top: 60px;
@@ -70,7 +76,11 @@ background-color: #FF4C68;
 	padding: 5% 15%;
 	background-color: white;
 	position: relative;
-	
+}
+
+.feature-title{
+	font-weight: 700;
+	font-size: 1.5rem;
 }
 
 .feature-box{
@@ -85,12 +95,6 @@ background-color: #FF4C68;
 
 #features i:hover{
 	color: #FF4C68;
-}
-
-#features p{
-	color: #8F8F8F;
-	font-family: Ubuntu, sans-serif;
-	font-size: 1rem;
 }
 
 /*testimonial section*/
@@ -123,29 +127,42 @@ background-color: #FF4C68;
 	opacity: .3s ease-out;
  	padding: 7% 15%;
 }
-/*
-Pricing*/
+
+.testimonial-text{
+	font-size: 3rem;
+	line-height: 1.5;
+	font-weight: 700;
+}
+
+/*Pricing section*/
 
 #pricing{
 	text-align: center;
 	padding: 100px;
 }
 
-.card-group p{
-	font-family: Ubuntu, sans-serif;
-}
-
 .pricing-column{
 	padding: 3% 2%;
 }
 
+.price-text{
+	font-weight: 700;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+.price-subheading{
+	color: black;
+}
+
+/*download section*/
+
 #cta{
 	text-align: center;
 	background-color: #FF4C68;
-	
 }
 
-#cta h3{
+.cta-heading{
 	font-family: Montserrat,sans-serif;
 	font-weight: 700;
 	font-size: 4rem;
@@ -163,6 +180,8 @@ Pricing*/
 	margin-right: 20px;
 	margin-left: 20px;
 }
+
+/*footer section*/
 
 #footer{
 	text-decoration: none;
@@ -183,23 +202,38 @@ Pricing*/
 
 @media (max-width:1028px){
 
-h1{
+h1, h2, h3{
+	font-family: Montserrat, sans-serif;
+	}
+
+.big-heading{
 	font-family: Montserrat, sans-serif;
 	font-weight: 900;
 	font-size: 2rem;
 	line-height: 1.5;
 	color: white;
-	}
+}
 
-	h2{
-	font-family: Montserrat, sans-serif;
+.section-heading{
+	font-size: 2rem;
+	line-height: 1.5rem;
+	font-weight: 700;
+	line-height: 1.5;
+}
+
+.price-text{
 	font-weight: 700;
 	font-size: 2rem;
 	line-height: 1.5;
 }
 
-	#cta h3{
-	font-family: Montserrat,sans-serif;
+.testimonial-text{
+	font-size: 2rem;
+	line-height: 1.5;
+	font-weight: 700;
+}
+
+	.cta-heading{
 	font-weight: 700;
 	font-size: 2rem;
 	text-align: center;
@@ -207,6 +241,11 @@ h1{
 	line-height: 1.5;
 	padding-top: 20px;
 }
+	.feature-title{
+	font-weight: 700;
+	font-size: 2rem;
+}
+
 
 #cta button{
 	margin-top: 30px;
